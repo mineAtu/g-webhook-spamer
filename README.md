@@ -8,6 +8,11 @@ https://discord.com/api/webhooks/805058800944021544/-WtLuInCLBKWw1o9wTAekR8W-czl
                                            ID                     TOKEN
 */
 const {send, spam, start} = require('g-webhook_spamer')
+// pra configurar o webhook
+start(
+'id do webhook',
+'token do webhook'
+)
 // Caso queira flodar(demora um pouco pra começar)
 spam(
 'mensagem',
@@ -17,9 +22,5 @@ spam(
 send(
 'mensagem'
 )
-// pra configurar o webhook
-start(
-'id do webhook',
-'token do webhook'
-)
+
 ```
